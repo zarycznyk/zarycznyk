@@ -1,0 +1,222 @@
+
+<!DOCTYPE html>
+ <html lang="pl">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+ </head>
+ <body>
+     <!--
+     <input type="number" name="liczba" placeholder="Podaj liczbe">
+     <button>Oblicz</button>
+     <div class="wynik">Tu bedzie wynik</div>
+     -->
+     <br>
+     <div>================ZADANIE 4=================</div>
+     <br>
+      <!--
+     <input type="number" name="od4" placeholder="Podaj przedział od">
+     <input type="number" name="do4" placeholder="Podaj przedział do"> <br>
+     <input type="number" name="liczba4" placeholder="Podaj liczbe"> 
+     <button>Oblicz</button>
+     <div class="wynik">Tu bedzie wynik</div>
+     -->
+     <!--
+
+     <input type="number" name="liczba1" placeholder="Podaj liczbe1"> <br>
+     <input type="number" name="liczba2" placeholder="Podaj liczbe2"> <br>
+     <input type="number" name="liczba3" placeholder="Podaj liczbe3"> <br>
+     <button>Oblicz</button>
+     <div class="wynik">Tu bedzie wynik</div>
+     <br>
+
+     -->
+     <br>
+     <div>================ZADANIE 8=================</div>
+     <br>
+     <!--
+
+     <input type="number" name="liczba" placeholder="Podaj numer miesiaca"> <br>
+     <button>Wypisz</button>
+     <div class="wynik">Tu bedzie wynik</div>
+
+     -->
+     <br>
+     <div>================ZADANIE 6=================</div>
+     <br>
+     <!--
+     <input type="number" name="liczba1" placeholder="Podaj liczbe1"> <br>
+     <input type="number" name="liczba2" placeholder="Podaj liczbe2"> <br>
+     <button>Oblicz</button>
+     <div class="wynik">Tu bedzie wynik</div>
+     -->
+     <br>
+     <div>================ZADANIE 7=================</div>
+     <br>
+     <script>
+         /*
+         //to taki se sposob
+         const a=prompt("Podaj liczbe: ");
+         if (a % 2 == 0) document.write("Liczba: " + a + " jest parzysta");
+         else document.write("Liczba: " + a + " nie jest parzysta");
+         */
+
+         /*
+         //profesjonal werszyn you know
+         const btn = document.querySelector('button');
+         const divW = document.querySelector('div.wynik');
+
+         btn.addEventListener('click', function() {
+             const liczbaZInputa = document.querySelector('input[name="liczba"]').value;
+             if(liczbaZInputa % 2 == 0) divW.textContent = 'Podana liczba: ' + liczbaZInputa + ' jest parzysta';
+             else divW.textContent = 'Podana liczba: ' + liczbaZInputa + ' nie jest parzysta';
+         });
+         */
+
+         /*
+         const btn = document.querySelector('button');
+         const divW = document.querySelector('div.wynik');
+
+         btn.addEventListener('click', function() {
+             const liczbaZInputa = document.querySelector('input[name="liczba"]').value;
+             if(liczbaZInputa > 5 && liczbaZInputa != 6 && liczbaZInputa !=  12) divW.textContent = 'Podana liczba: ' + liczbaZInputa + ' jest wieksza od 5 ale nie jest 6 ani 12';
+             else if(liczbaZInputa == 0) divW.textContent = 'Podana liczba: ' + liczbaZInputa + ' jest zerem';
+             else divW.textContent = 'Liczba albo jest 6 albo 12 albo mniejsza od 5 i nie jest 0';
+         });
+         */
+
+         /*
+         const btn = document.querySelector('button');
+         const divW = document.querySelector('div.wynik');
+
+         btn.addEventListener('click', function() {
+             const liczbaZInputa = document.querySelector('input[name="liczba"]').value;
+             if(liczbaZInputa == 1) divW.textContent = 'Poniedzialek';
+             else if(liczbaZInputa == 2) divW.textContent = 'Wtorek';
+             else if(liczbaZInputa == 3) divW.textContent = 'Środa';
+             else if(liczbaZInputa == 4) divW.textContent = 'Czwartek';
+             else if(liczbaZInputa == 5) divW.textContent = 'Piątek';
+             else if(liczbaZInputa == 6) divW.textContent = 'Sobota';
+             else if(liczbaZInputa == 7) divW.textContent = 'Niedziela';
+             else divW.textContent = 'Podales liczbe z poza zakresu';
+         });
+         */
+
+         /*
+         const btn = document.querySelector('button');
+         const divW = document.querySelector('div.wynik');
+
+         btn.addEventListener('click', function() {
+             const liczbaZInputa = document.querySelector('input[name="liczba4"]').value;
+             const aod4 = document.querySelector('input[name="od4"]').value;
+             const ado4 = document.querySelector('input[name="do4"]').value;
+
+             if(liczbaZInputa <= ado4 && liczbaZInputa >= aod4) divW.textContent = 'Mieści sie w przedziale';
+             else divW.textContent = 'Nie miesci sie w przedziale';
+         });
+         */
+        /*
+         const btn = document.querySelector('button');
+         const divW = document.querySelector('div.wynik');
+
+         btn.addEventListener('click', function() {
+             const a = document.querySelector('input[name="liczba1"]').value;
+             const b = document.querySelector('input[name="liczba2"]').value;
+             const c = document.querySelector('input[name="liczba3"]').value;
+
+             if(a >= b)
+             {
+                 if(a >= c)
+                 {
+                     if(b >= c) divW.textContent = 'Podane liczby: ' +  a +  ' ' + b + ' ' + c;
+                     else divW.textContent = 'Podane liczby: ' +  a +  ' ' + c + ' ' + b;
+                 }
+                 else divW.textContent = 'Podane liczby: ' +  c +  ' ' + a + ' ' + b;
+             }
+             else
+             {
+                 if(a >= c)
+                 {
+                     divW.textContent = 'Podane liczby: ' +  b +  ' ' + a + ' ' + c;
+                 }
+                 else
+                 {
+                     if(b >= c) divW.textContent = 'Podane liczby: ' +  b +  ' ' + c + ' ' + a;
+                     else divW.textContent = 'Podane liczby: ' +  c +  ' ' + b + ' ' + a;
+                 }
+             }
+         });
+         */
+        /*
+         const poleInput=document.querySelector('input[name="liczba"]');
+         const btn=document.querySelector('button');
+         const divW=document.querySelector('div.wynik');
+
+         btn.addEventListener('click', function(){
+             const wartoscPolaInput=poleInput.value * 1;
+
+             switch (wartoscPolaInput) {
+                 case 1:
+                     divW.textContent = 'Styczeń';
+                     break;
+                 case 2:
+                     divW.textContent = 'Luty';
+                     break;
+                 case 3:
+                     divW.textContent = 'Marzec';
+                     break;
+                 case 4:
+                     divW.textContent = 'Kwiecien';
+                     break;
+                 case 5:
+                     divW.textContent = 'Maj';
+                     break;
+                 case 6:
+                     divW.textContent = 'Czerwiec';
+                     break;
+                 case 7:
+                     divW.textContent = 'Lipiec';
+                     break;
+                 case 8:
+                     divW.textContent = 'Sierpien';
+                     break;
+                 case 9:
+                     divW.textContent = 'Wrzesien';
+                     break;
+                 case 10:
+                     divW.textContent = 'Pazdziernik';
+                     break;
+                 case 11:
+                     divW.textContent = 'Listopad';
+                     break;
+                 case 12:
+                     divW.textContent = 'Grudzien';
+                     break;
+                 default:
+                     document.write('Wprowadziles niepoprawna liczbe')
+                     break;
+         }
+         })
+         */
+         /*
+         const btn = document.querySelector('button');
+         const divW = document.querySelector('div.wynik');
+
+         btn.addEventListener('click', function() {
+             const a = document.querySelector('input[name="liczba1"]').value;
+             const b = document.querySelector('input[name="liczba2"]').value;
+
+             if(a%b==0)
+             {
+                 divW.textContent = 'Liczba jest podzielna przez druga';
+             }
+             else divW.textContent = 'Liczba nie jest podzielna przez druga';
+
+         });
+         */
+
+     </script>
+ </body>
+ </html>

@@ -1,0 +1,47 @@
+DOCTYPE html>
+ <html lang="pl">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Podstawy CSS</title>
+     <link rel="stylesheet" href="tak.css">
+ </head>
+ <body>
+     <div class="pierwsza" id="d">
+         <h1 id="h">To jest linijka <i class="k1" id="i">pierwsza</i></h1>
+     </div>
+     <div class="drugi" id="d">
+         <h2>To jest linijka <i class="k2" id="i">druga</i></h2>
+     </div>
+     <div class="trzeci" id="d">
+         <h3>To jest linijka <i class="k3" id="i">trzecia</i></h3>
+     </div>
+     <div class="czwarty" id="d">
+         <h4>To jest linijka <i class="k4" id="i">czwarta</i></h4>
+     </div>
+     <div class="piaty" id="d">
+         <h1 id="h">To jest linijka <i id="i">piata</i></h1>
+     </div>
+     <div class="czwarty" id="d">
+         <h1 id="h">To jest linijka <i class="k1" id="i">szosta</i></h1>
+     </div>
+     <div class="trzeci" id="d">
+         <h2>To jest linijka <i class="k2" id="i">siodma</i></h2>
+     </div>
+     <div class="drugi" id="d">
+         <h2>To jest linijka <i class="k3" id="i">osma</i></h2>
+     </div>
+     <div class="pierwszy" id="d">
+         <h4>To jest linijka <i class="k4" id="i">dziewiata</i></h4>
+     </div>
+     <ol>
+         <li>Pierwszy punkt</li>
+             <ol>
+                 <li>Podpunkt A</li>
+                 <li>Podpunkt B</li>
+             </ol>
+         <li>Drugi punkt</li>
+     </ol>
+     <p>To jest przykladowe lacze: <a href="#">Zespol Szkol nr 4</a></p>
+ </body>
