@@ -1,0 +1,44 @@
+Wysłano
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+ </head>
+ <body>
+     <input type="number" name="liczba" placeholder="podaj liczbe">
+     <button>Oblicz</button>
+     <div class="wynik">tutaj bedzie wynik</div>
+     <script>
+         /*const liczba = prompt('Podaj liczbe :');
+         if (liczba % 2 == 0) {
+             document.write('Podana liczba jest parzysta')
+         }  else {
+             document.write('Podana liczba jest nie parzysta')
+         }*/
+     </script>
+     <script>
+         //odwolujemy sie/pobieramy przycisk button oraz div a klasie wynik
+         const btn = document.querySelector('button');
+         const divW = document.querySelector('div.wynik');
+
+         //obslugujemy klikanie myszka w przycisk
+         btn.addEventListener('click', function () {
+             //pobieramy wartosc pola input
+             const LiczbaZInputa = document.querySelector('input[name="liczba"]').
+             value;
+
+             //do diva o klasie wynik dodajemy odpowiednia zawartosc
+             if(LiczbaZInputa % 2 == 0){
+                 divW.textContent = 'Podana liczba ' + LiczbaZInputa + ' jest parzysta';
+             }
+             else {
+                 divW.textContent = Podana liczba jest nieparzysta;
+             }
+
+         });
+     </script>
+ </body>
+ </html>

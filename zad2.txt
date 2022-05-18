@@ -1,0 +1,118 @@
+21:28
+Wysłano
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Makieta</title>
+ </head>
+ <body>
+     <header>
+         <section class="about_company">
+             <img src="https://via.placeholder.com/200x100" alt=logo>
+         </section>
+         <nav class="main_menu">
+             <ul class="menu_items">
+                 <li class="menu_item">
+                     <a class="menu_link" href="#">Start</a>
+                 </li>
+             </ul>
+             <ul class="menu_items">
+                 <li class="menu_item">
+                     <a class="menu_link" href="#">O firmie</a>
+                 </li>
+             </ul>
+             <ul class="menu_items">
+                 <li class="menu_item">
+                     <a class="menu_link" href="#">Galeria</a>
+                 </li>
+             </ul>
+             <ul class="menu_items">
+                 <li class="menu_item">
+                     <a class="menu_link" href="#">Kontakt</a>
+                 </li>
+             </ul>
+         </nav>
+     </header>
+     <section>
+         <p>Witaj na naszej stronie</p>
+         <img src="https://via.placeholder.com/1400x300" alt="photo">
+     </section>
+     <section class="information">
+         <div class="info">
+             <h1>Oferta 1</h1>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates pariatur repellat ullam?</p>
+             <button>Zobacz więcej</button>
+         </div>
+         <div class="info">
+             <h1>Oferta 2</h1>
+             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum magnam inventore alias.</p>
+             <button>Zobacz więcej</button>
+         </div>
+
+         <aside>
+             <img src="https://via.placeholder.com/468x60">
+         </aside>
+     </section>
+     <section class="contact">
+         <h1>Skontaktuj się z nami</h1>
+         <div>
+             <p>Wpisz imię</p>
+             <input type="text">
+         </div>
+         <div>
+             <p>Wpisz nazwisko</p>
+             <input type="text">
+         </div>
+         <div>
+             <p>Wpisz numer telefonu</p>
+             <input type="number" name="phone" maxlength="9">
+         </div>
+         <div>
+             <p>Wpisz wiadomość</p>
+             <input type="text" size="80">
+         </div>
+         </section>
+         <section>
+             <div>
+                 <h1>Przydatne linki</h1>
+                 <ul>
+                     <li>
+                         <a href="#">WWW</a>
+                     </li>
+                     <ul>
+                         <li>
+                             <a href="#">Link 1</a>
+                         </li>
+                         <li>
+                             <a href="#">Link 2</a>
+                         </li>
+                     </ul>
+                     <li>
+                         <a href="#">Design</a>
+                     </li>
+                     <ul>
+                         <li>
+                             <a href="#">Link 1</a>
+                         </li>
+                         <li>
+                             <a href="#">Link 2</a>
+                         </li>
+                         <li>
+                             <a href="#">Link 3</a>
+                         </li>
+                     </ul>
+                 </ul>
+             </div>
+         </section>
+         <footer>
+             <div class="copyright">Dane adresowe firmy</div>
+             <div class="social_icons">
+                 <a href="facebook.com">Facebook</a>
+                 <a href="google.com">Google</a>
+                 <a href="twitter.com">Twitter</a>
+             </div>
+         </footer>
+ </body>
+ </html>

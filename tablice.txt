@@ -1,0 +1,125 @@
+DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+ </head>
+ <body>
+     <script>
+         const liczby = [1, 2];
+         const wyrazy = ['Ala', 'Ola'];
+         //pierwszy element tablicy ma index 0
+         console.log(liczby[0]);
+         console.log(liczby[1]);
+
+         liczby[2] = 'Marek';
+         console.log(liczby);
+         console.log(wyrazy);
+
+         //colors ze wzgledu ze przykladowa tablica miala taka nazwe
+
+         // PUSH - dodaje element na koncu tablicy
+         // colors.push('black');
+         // console.log('colors');
+
+
+         // UNSHIFT - dodaje element na poczatek tablicy
+         // colors.unshift('white');
+         // colors[0] = 'white';
+         // console.log('colors');
+
+
+         // POP - usuwa ostatni element tablicy
+         // Usunięcie wartości i indeksy (nie tylko wartości)
+         //      colors.pop();
+         //      console.log(colors);
+
+         //      delete colors[4]; //zmiana wartości ostatniego na undenfined
+         //      console.log(colors);
+         //      colors.push('black');
+         //      console.log('colors');
+
+
+         // SHIFT -usuwa pierwszy element z tablicy
+
+
+         //METODA CONCAT - łączenie tablic
+         // const even = [2, 4, 6, 8];
+         // const odd = [1, 3, 5, 7, 9];
+
+         // const number = even.concat(odd);
+         // console.log(number);
+
+
+         // METODA SORT - sortuje tablice
+         // metoda destrukcyjna
+         // nie nadaje się do liczb ponieważ traktuje je jako tekst (12 da wcześniej niz 2 ponieważ patrzy na pierwsze ;iczby a 1<2)
+         // colors.sort()
+         // console.log(animals);
+
+
+         // METODA INDEXOF
+         // szuka takiego elementu w tablicy, jeśli znajdzie zwraca index tego elementu, jeśli nie znajdzie zwraca -1;
+         // szuka do pierwszego znalezionego elementu
+         // colors.indexOf('canary');
+         // console.log(['Arek', 22, null, 22].indexOf(22));
+         // console.log(['Arek', 22, null, 22].lastindexOf(22));
+         // ["Arek", 22, null, 22].indexOf("Are"); // zwroci -1
+
+
+         // METODA JOIN
+         // tworzy stringa z elementów, domyślnie oddzielonych przecinkiem. Możemy to jednak zmienić.
+         // console.log(colors.join());  // string oddzielony przecinkiem
+         // console.log(colors.join('++')); //string oddzielony dwoma plusami
+
+
+         // METODA REVERSE
+         // metoda destrukcyjna
+         // odwraca kolejność
+         //items.reverse();
+         //["a", 3, "z", "koniec"].reverse();
+
+
+
+         //tablica do przykladu ponizej
+         //const items = ["zad", "bza", "wus", "xas", "cos", "mer", "twe"];
+         //console.log(items);
+
+         // METODA SLICE
+         // zwraca nową tablicę, ktora sklada sie z czesci tablicy na ktorej jest wykonywana. Jesli damy tylko jeden argument to bedzie zwracala od tego elementu (od tego indexu do konca)
+         //console.log(items.slice(3, 5));
+         //console.log(items);
+
+         //drugi argument mowi, do ktorego elementu (index), ale bez tego elementu
+         // console.log(items.slice(1,4));
+         // a tak jak mozemy pobrac cala tablice
+         // items.slice(0, items.length);
+         // lub
+         // const newItems = items.slice(0);
+
+
+
+         // METODA SPLICE
+         // przyklad metody destrukcyjnej (zmienia tablice na ktorej jest wywolywana)
+         const animals = ['dog', 'cat', 'canary', 'mouse', 'rat'];
+         console.log(animals);
+         console.log(animals.splice (1,2)) //zmieni tablice (beda w niej element nr1,2 (czyli 2 i 3))
+         // animals.splice(2)  // zmienie tablice na elementy od 2 w gore
+         //animals.splice(0);  //wyzeruje tablice
+         // console.log(animals);
+         // umozliwia nam tez dodawanie elementow
+         // animals.splice(2, 0, "rat");
+         // console.log(animals);
+
+
+
+
+
+         // METODA SPLIT, KTORA MOZNA WYKONAC NA STRING TWORZY TABLICE
+         // const letters = 'MAREK ADAM JUSTYNA TERESA' .split(' ');
+         console.log(letters);
+     </script>
+ </body>
+ </html>

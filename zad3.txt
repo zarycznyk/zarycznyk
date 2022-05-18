@@ -1,0 +1,48 @@
+head>
+     <body>
+         <center><h1>Formularz</h1></center><br>
+     <form zarycznyk@gmail.com" method="post">
+         <p>Podaj imię <input type="text" name="Imię"></p>
+     <p>Podaj nazwisko <input type="text" name="Nazwisko"></p>
+     <p>PESEL <input type="number" name="PESEL" size="11"></p>
+     <p>Kod pocztowy <input type="number" name="kod_pocztowy" size="2"> - <input type="number" size="3"></p>
+     <p>Numer telefon <input type="tel" name="telefon" size="9"></p>
+     <p>E-mail <input type="email" name="email"></p>
+     <p>Wybierz płeć<p>
+         <input type="radio" value="Kobieta" name="opcja"> Kobieta
+         <input type="radio" value="Mężczyzna" name="opcja"> Mężczyzna
+     <p>Wybierz województwo
+     <form action="https://mail.google.com" method="post">
+         <label for="imie">Podaj imię: <input type="text" id="imie"></label> <br>
+     <br> <label for="nazw">Podaj nazwisko: <input type="text" name="nazw"></label> <br>
+     <br> <label for="PESEL">PESEL <input type="number" name="PESEL" maxlength="11"></label> <br>
+     <br> <label for="kod">Kod pocztowy <input type="number" name="kod" maxlength="2"> - <input type="number" maxlength="3"></label> <br>
+     <br> <label for="tele">Numer telefon <input type="tel" name="tele" maxlength="9"></label> <br>
+     <br> <label for="mail">E-mail <input type="email" name="mail"></label> <br>
+     <br> <label for="plec">Wybierz płeć:
+         <input type="radio" value="Kobieta" name="plec"> Kobieta
+         <input type="radio" value="Mężczyzna" name="plec"> Mężczyzna
+     </label> <br>
+     <br> <label>Wybierz województwo: 
+     <select name="województwo">
+         <option>Wybierz opcję</option>
+         <option>Małopolskie</option>
+ @@ -37,8 +38,8 @@
+         <option>Pomorskie</option>
+         <option>Zachodnio-Pomorskie</option>        
+     </select>
+ </p>
+ <p>Zainteresowania</p>
+     </label> <br>
+     <br> <label>Zainteresowania: 
+     <input type="checkbox" name="zainter">Czytanie
+     <input type="checkbox" name="zainter">Śpiewanie
+     <input type="checkbox" name="zainter">Gotowanie
+ @@ -47,7 +48,7 @@
+     <input type="checkbox" name="zainter">Rysowanie
+     <input type="checkbox" name="zainter">Granie w gry
+     <input type="checkbox" name="zainter">Fotografia
+
+     </label>
+ <p><input type="submit" value="Wyślij">
+ <input type="reset" value="Wyczyść"></p>
