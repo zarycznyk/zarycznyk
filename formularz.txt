@@ -1,0 +1,56 @@
+<!Doctype html >
+< html >
+    < głowa >
+        < meta  charset =" utf-8 " >
+        < meta  name =" autor " content =" kajaz " >
+        < tytuł > Fomularz </ tytuł >
+    </ głowa >
+    < ciało >
+        < center > < h1 > Formularz </ h1 > </ center > < br >
+    < form  action =" https://mail.google.com " method =" post " >
+        < etykieta  dla =" imie " > Podaj imię: < typ wejścia  =" tekst " id =" imie " > </ etykieta > < br > 
+    < br >  < label  for =" nazw " > Podaj nazwisko: < input  type =" text " name =" nazw " > </ label >  < br >
+    < br >  < etykieta  dla =" PESEL " > PESEL < typ wejścia  =" liczba " nazwa =" PESEL " maxlength =" 11 " > </ etykieta > < br > 
+    < br >  < etykieta  dla =" kod " > Kod pocztowy < typ wejściowy  =" numer " nazwa =" kod " maxlength =" 2 " > - < typ wpisany = " numer " maxlength =" 3 " > </ etykieta > < br >  
+    < br >  < etykieta  dla =" tele " > Numer telefon < typ wejścia  =" tel " name =" tele " maxlength =" 9 " > </ label > < br > 
+    < br >  < label  for =" mail " > E-mail < input  type =" email " name =" mail " > </ label >  < br >
+    < br >  < label  for =" plec " > Wybierz płeć:
+        < typ wejścia  =" radio " wartość =" Kobieta " nazwa =" plec " > Kobieta
+        < typ wejścia  =" radio " wartość =" Mężczyzna " imię i nazwisko =" plec " > Mężczyzna
+    </ label >  < br >
+    < br >  < label > Wybierz województwo:
+    < wybierz  nazwę =" województwo " >
+        < opcja > Wybierz opcję </ opcja >
+        < opcja > małopolskie </ opcja >
+        < opcja > Podkarpacie </ opcja >
+        < opcja > Śląskie </ opcja >
+        < opcja > opolskie </ opcja >
+        < opcja > dolnośląskie </ opcja >
+        < opcja > lubuskie </ opcja >
+        < opcja > Wielkopolskie </ opcja >
+        < opcja > świętokrzyskie </ opcja >
+        < opcja > lubelskie </ opcja >
+        < opcja > Łódzkie </ opcja >
+        < opcja > mazowieckie </ opcja >
+        < opcja > podlaskie </ opcja >
+        < opcja > Mazursko-Warmińskie </ opcja >
+        < opcja > Kujawsko-Pomorskie </ opcja >
+        < opcja > Pomorskie </ opcja >
+        < opcja > Zachodnio-pomorskie </ opcja >        
+    </ wybierz >
+    </ label >  < br >
+    < br >  < label > Zainteresowania:
+    < input  type =" checkbox " name =" zainter " > Czytanie
+    < input  type =" checkbox " name =" zainter " > Śpiewanie
+    < input  type =" checkbox " name =" zainter " > Gotowanie
+    < input  type =" pole wyboru " nazwa =" zainter " > Sport
+    < typ wejścia  =" pole wyboru " nazwa =" zainter " > Motoryzacja
+    < input  type =" checkbox " name =" zainter " > Rysowanie
+    < input  type =" pole wyboru " nazwa =" zainter " > Granie w gry
+    < input  type =" pole wyboru " nazwa =" zainter " > Fotografia
+    </ etykieta >
+< p > < input  type =" wyślij " wartość =" Wyślij " >
+< typ wejścia  =" reset " wartość =" Wyczyść " > </ p >
+</ formularz >
+</ ciało >
+</ html >
