@@ -1,0 +1,22 @@
+!DOCTYPE html >
+< html  lang =" pl " >
+< głowa >
+    < meta  charset =" UTF-8 " >
+    < meta  http-equiv =" Zgodny z X-UA " content =" IE=edge " >
+    < nazwa meta  =" viewport " content =" szerokość = szerokość urządzenia, początkowa skala = 1,0 " >
+    < title > Dokument </ title >
+</ głowa >
+< ciało >
+    < skrypt >
+        var  liczba = 101 ;
+        przedzial ( liczba ) ;
+    funkcja  działal ( tab ) {
+        
+            if ( tab  >= 0  &&  tab <= 100 ) {
+                dokument . napisz ( "liczba zaiwera sie w" )
+            }
+            inny  dokument . napisz ( "liczba nie zawiera sie w sprzedaży" )
+    }
+</ skrypt >
+</ ciało >
+</ html >
